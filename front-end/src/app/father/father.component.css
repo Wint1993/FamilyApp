@@ -1,0 +1,14 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+.button {
+  text-align: center;
+}
+.md-button {
+  min-width: 1%;
+}
+.mat-success {
+  background-color: green;
+  color: #fff;
+}
+.wrapper {
+  text-align: center;
+}

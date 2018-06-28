@@ -1,0 +1,115 @@
+<app-header></app-header>
+<div>
+<div class="split left">
+
+<div class="left1">
+  <p></p>
+  <form [formGroup]="form">
+    <p></p>
+    &nbsp;
+    <h1>Child</h1>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" minlength="3" class="form-control" formControlName="name" id="name" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('name')" errorMsg="Please inform your name, minimum 3 characters"></app-field-error-display>
+
+    <div class="form-group">
+      <label for="lastName">Lastname</label>
+      <input type="text"  minlength="3" class="form-control" formControlName="lastName" id="lastName" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('lastName')" errorMsg="Please inform your lastname, minimum 3 characters"></app-field-error-display>
+
+    <div class="form-group">
+      <label for="Pesel">Pesel</label>
+      <input type="text" pattern="\d+" minlength="11" maxlength="11" class="form-control" formControlName="pesel" id="Pesel" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('pesel')" errorMsg="Please inform your pesel, need 11 characters. Only numbers!"></app-field-error-display>
+
+    <div class="wrapper">
+    <mat-form-field>
+      <input matInput name="date" id="date" formControlName="date"  [matDatepicker]="picker" placeholder="Choose a birthdate" required>
+
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+      <app-field-error-display [displayError]="isFieldValid('date')" errorMsg="Please inform your birthdate"></app-field-error-display>
+    </div>
+
+    <p></p>
+    <div class="wrapper">
+    <mat-form-field>
+      <mat-select placeholder="Sex" id="selectedValue" formControlName="selectedValue" >
+        <mat-option *ngFor="let gender of sex" [value]="gender.value">
+          {{gender.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+      <app-field-error-display [displayError]="isFieldValid('selectedValue')" errorMsg="Please select the gender of the child"></app-field-error-display>
+    </div>
+
+    <p></p>
+    <div class="wrapper">
+    <div mat-dialog-actions>
+      <button mat-button class="btn btn-success" (click)="saveResult()" [disabled]="!form.valid" cdkFocusInitial>Add child</button>
+    </div>
+    </div>
+
+  </form>
+</div>
+
+</div>
+<div class="split1 right">
+  <div class="right1">
+  <h1>Family</h1>
+
+  <mat-nav-list>
+    <mat-accordion>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+          <b> Father </b> : {{ father?.name }} {{ father?.lastName }}
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p><b>Birthday: </b> {{ father?.birthDate }} </p>
+        <p><b>Pesel: </b> {{ father?.pesel }} </p>
+      </mat-expansion-panel>
+
+    </mat-accordion>
+      <mat-accordion *ngFor="let child of childTable; let i = index">
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <b> Child {{i+1}} </b> : {{ child.name }} {{ child.lastName }}
+            </mat-panel-title>
+            <mat-panel-description>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p><b>Birthday:  </b>{{ child.birthDate }} </p>
+          <p><b>Pesel: </b> {{ child.pesel }} </p>
+          <p><b>Sex:  </b>{{ child.sex }} </p>
+          <p>
+            <button mat-button class="btn btn-warning btn-sm" (click)="delete(i)" >Delete</button>
+          </p>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
+  </mat-nav-list>
+  <p></p>
+  <div class="wrapper">
+  <div mat-dialog-actions>
+    <button mat-button class="btn btn-primary" (click)="create()">Create Family</button>
+  </div>
+  </div>
+
+  </div>
+
+</div>
+</div>

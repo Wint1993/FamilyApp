@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="container">
+  <p></p>
+  <form [formGroup]="form">
+    <h1>Father</h1>
+    <p></p>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" minlength="3" class="form-control" formControlName="name" id="name" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('name')" errorMsg="Please inform your name, minimum 3 characters"></app-field-error-display>
+
+
+    <div class="form-group">
+      <label for="lastName">Lastname</label>
+      <input type="text" minlength="3" class="form-control" formControlName="lastName" id="lastName" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('lastName')" errorMsg="Please inform your lastname, minimum 3 characters"></app-field-error-display>
+
+    <div class="form-group">
+      <label for="Pesel">Pesel</label>
+      <input type="text" pattern="\d+" minlength="11" maxlength="11" class="form-control" formControlName="pesel" id="Pesel" required>
+    </div>
+    <app-field-error-display [displayError]="isFieldValid('pesel')" errorMsg="Please inform your pesel, need 11 character. Only numbers! "></app-field-error-display>
+
+    <div class="wrapper">
+    <mat-form-field>
+      <input matInput name="date" id="date" formControlName="date"  [matDatepicker]="picker" placeholder="Choose a birthdate" required>
+
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <app-field-error-display [displayError]="isFieldValid('date')" errorMsg="Please inform your birthdate"></app-field-error-display>
+    </div>
+    <p></p>
+    <div mat-dialog-actions>
+      <div class="wrapper">
+         <button mat-button class="btn btn-success" (click)="saveResult()" [disabled]="!form.valid" cdkFocusInitial>Next</button>
+      </div>
+    </div>
+
+  </form>
+</div>
+
