@@ -48,9 +48,6 @@ public class FamilyService {
         List<FamilyResponseDto> familyResponseDtos = new ArrayList<>();
         for(Map.Entry<Father,List<Child>> entry: map.entrySet()){
             FamilyResponseDto familyResponseDto = new FamilyResponseDto(new FatherDto(entry.getKey()),entry.getValue().stream().map(ChildDto::new).collect(toList()));
-
-         //   familyResponseDto.setFatherDto(new FatherDto(entry.getKey()));
-          //  familyResponseDto.setChildDtos(entry.getValue().stream().map(ChildDto::new).collect(toList()));
             familyResponseDtos.add(familyResponseDto);
         }
         return familyResponseDtos;

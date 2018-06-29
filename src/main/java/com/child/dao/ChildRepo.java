@@ -11,10 +11,11 @@ import java.util.List;
 @Repository
 public interface ChildRepo extends JpaRepository<Child, Long> {
 
-    @Query("SELECT T FROM Child T WHERE T.name LIKE LOWER(CONCAT('%',:query,'%')) " +
-            "OR T.lastName LIKE LOWER(CONCAT('%',:query,'%')) " +
-            "OR T.pesel LIKE LOWER(CONCAT('%',:query,'%')) " +
-            "OR T.birthDate LIKE LOWER(CONCAT('%',:query,'%'))" +
-            "OR T.sex LIKE LOWER(CONCAT('%',:query,'%'))")
+    @Query("SELECT T FROM Child T WHERE LOWER(T.name) LIKE (CONCAT('%',:query,'%')) " +
+            "OR LOWER(T.lastName) LIKE (CONCAT('%',:query,'%')) " +
+            "OR LOWER(T.pesel) LIKE (CONCAT('%',:query,'%')) " +
+            "OR LOWER(T.birthDate) LIKE (CONCAT('%',:query,'%'))" +
+            "OR LOWER(T.sex) LIKE (CONCAT('%',:query,'%'))")
     List<Child> findAll(@Param("query") String query);
+
 }

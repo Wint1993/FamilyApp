@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d56eb40c-eb7e-40ba-8dbc-12a729c660fc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java" afterPath="$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java" afterPath="$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java" />
     </list>
@@ -38,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamilyService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FamilyService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="132">
               <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding />
             </state>
@@ -51,8 +52,8 @@
       <file leaf-file-name="ChildServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/child/service/ChildServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="46" selection-end-column="81" />
+            <state relative-caret-position="17">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
@@ -62,10 +63,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FamilyServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FamilyServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1382">
+            <state relative-caret-position="311">
+              <caret line="105" column="56" lean-forward="true" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FatherRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/father/dao/FatherRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChildRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
@@ -77,7 +100,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1523002262328" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523002262328" expanded="false" signature="147:326" ph="..." />
+                <marker date="1523002262328" expanded="true" signature="476:685" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="716:727" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="746:752" ph=" }" />
+                <marker date="1523002262328" expanded="true" signature="852:1077" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="870:964" ph="runReflectiveCall() → {" />
+                <marker date="1523002262328" expanded="false" signature="1048:1063" ph="}" />
+                <marker date="1523002262328" expanded="false" signature="1106:1117" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="1146:1152" ph=" }" />
+                <marker date="1523002262328" expanded="true" signature="1236:1469" ph="{...}" />
+                <marker date="1523002262328" expanded="true" signature="1548:2081" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="2115:2126" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="2160:2166" ph=" }" />
+                <marker date="1523002262328" expanded="false" signature="2203:2214" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="2249:2255" ph=" }" />
+                <marker date="1523002262328" expanded="false" signature="2286:2297" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="2325:2331" ph=" }" />
+                <marker date="1523002262328" expanded="false" signature="2372:2383" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="2422:2428" ph=" }" />
+                <marker date="1523002262328" expanded="true" signature="2501:2586" ph="{...}" />
+                <marker date="1523002262328" expanded="true" signature="2643:3127" ph="{...}" />
+                <marker date="1523002262328" expanded="true" signature="3167:3289" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="3316:3327" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="3357:3363" ph=" }" />
+                <marker date="1523002262328" expanded="true" signature="3369:3387" ph="/**...*/" />
+                <marker date="1523002262328" expanded="true" signature="3447:3595" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="3639:3650" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="3689:3695" ph=" }" />
+                <marker date="1523002262328" expanded="false" signature="3737:3748" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="3784:3790" ph=" }" />
+                <marker date="1523002262328" expanded="true" signature="3867:3932" ph="{...}" />
+                <marker date="1523002262328" expanded="false" signature="3962:3973" ph=" { " />
+                <marker date="1523002262328" expanded="false" signature="4003:4009" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,16 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Child.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/child/dao/entity/Child.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -122,16 +170,6 @@
                 <element signature="e#858#859#0" expanded="true" />
                 <element signature="e#908#909#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/child/dao/dto/ChildDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +251,6 @@
         <option value="$PROJECT_DIR$/front-end/src/app/family/family.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/search/search.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/child/child.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/child/dao/entity/Child.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/child/service/ChildService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/family/dao/entity/Family.java" />
@@ -227,6 +264,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/child/service/ChildServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java" />
       </list>
     </option>
@@ -241,8 +279,8 @@
     <handled-path value="$PROJECT_DIR$/front-end/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="359" />
-    <option name="y" value="51" />
+    <option name="x" value="171" />
+    <option name="y" value="82" />
     <option name="width" value="1708" />
     <option name="height" value="1017" />
   </component>
@@ -456,26 +494,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FamilyServiceTest.findShouldReturnFamily">
+  <component name="RunManager" selected="JUnit.FamilyServiceTest.findBySexShouldReturnOneChild">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FamilyApp" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -491,32 +515,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ChildServiceTest.createShouldCreateChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.child.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FamilyApp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.child.service" />
-      <option name="MAIN_CLASS_NAME" value="com.child.service.ChildServiceTest" />
-      <option name="METHOD_NAME" value="createShouldCreateChild" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FamilyServiceTest.createShouldCreateFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyServiceTest.findByDateShouldReturnTwoChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.family.service.*" />
@@ -528,7 +527,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.family.service" />
       <option name="MAIN_CLASS_NAME" value="com.family.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="createShouldCreateFamily" />
+      <option name="METHOD_NAME" value="findByDateShouldReturnTwoChildren" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -541,7 +540,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FamilyServiceTest.findShouldReturnFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyServiceTest.findByLastnameShouldReturnTwoChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.family.service.*" />
@@ -553,7 +552,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.family.service" />
       <option name="MAIN_CLASS_NAME" value="com.family.service.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="findShouldReturnFamily" />
+      <option name="METHOD_NAME" value="findByLastnameShouldReturnTwoChildren" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -566,19 +565,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FatherServiceTest.createShouldCreateFather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyServiceTest.findByNameShouldReturnOneChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.father.service.*" />
+          <option name="PATTERN" value="com.family.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="FamilyApp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.father.service" />
-      <option name="MAIN_CLASS_NAME" value="com.father.service.FatherServiceTest" />
-      <option name="METHOD_NAME" value="createShouldCreateFather" />
+      <option name="PACKAGE_NAME" value="com.family.service" />
+      <option name="MAIN_CLASS_NAME" value="com.family.service.FamilyServiceTest" />
+      <option name="METHOD_NAME" value="findByNameShouldReturnOneChild" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FamilyServiceTest.findByPeselShouldReturnFather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.family.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FamilyApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.family.service" />
+      <option name="MAIN_CLASS_NAME" value="com.family.service.FamilyServiceTest" />
+      <option name="METHOD_NAME" value="findByPeselShouldReturnFather" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FamilyServiceTest.findBySexShouldReturnOneChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.family.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FamilyApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.family.service" />
+      <option name="MAIN_CLASS_NAME" value="com.family.service.FamilyServiceTest" />
+      <option name="METHOD_NAME" value="findBySexShouldReturnOneChild" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -670,19 +719,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="npm.Front-End" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Application" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChildServiceTest.createShouldCreateChild" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.createShouldCreateFamily" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FatherServiceTest.createShouldCreateFather" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findShouldReturnFamily" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByNameShouldReturnOneChild" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByLastnameShouldReturnTwoChildren" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByPeselShouldReturnFather" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByDateShouldReturnTwoChildren" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findBySexShouldReturnOneChild" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findShouldReturnFamily" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FatherServiceTest.createShouldCreateFather" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.createShouldCreateFamily" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ChildServiceTest.createShouldCreateChild" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findBySexShouldReturnOneChild" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByDateShouldReturnTwoChildren" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByPeselShouldReturnFather" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByLastnameShouldReturnTwoChildren" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FamilyServiceTest.findByNameShouldReturnOneChild" />
       </list>
     </recent_temporary>
   </component>
@@ -707,7 +756,7 @@
       <workItem from="1530171444028" duration="108000" />
       <workItem from="1530171597230" duration="18986000" />
       <workItem from="1530201385616" duration="17285000" />
-      <workItem from="1530252866710" duration="2816000" />
+      <workItem from="1530252866710" duration="7115000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1530221533972</created>
@@ -720,39 +769,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 50m 26s.xml">
+    <history-entry file="FamilyServiceTest_findByDateShouldReturnTwoChildren - 2018.06.29 at 10h 02m 40s.xml">
+      <configuration name="FamilyServiceTest.findByDateShouldReturnTwoChildren" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findByDateShouldReturnTwoChildren - 2018.06.29 at 10h 07m 44s.xml">
+      <configuration name="FamilyServiceTest.findByDateShouldReturnTwoChildren" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findByDateShouldReturnTwoChildren - 2018.06.29 at 10h 08m 17s.xml">
+      <configuration name="FamilyServiceTest.findByDateShouldReturnTwoChildren" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findByLastnameShouldReturnTwoChildren - 2018.06.29 at 09h 58m 14s.xml">
+      <configuration name="FamilyServiceTest.findByLastnameShouldReturnTwoChildren" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findByNameShouldReturnOneChild - 2018.06.29 at 09h 56m 50s.xml">
+      <configuration name="FamilyServiceTest.findByNameShouldReturnOneChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findByPeselShouldReturnFather - 2018.06.29 at 10h 00m 51s.xml">
+      <configuration name="FamilyServiceTest.findByPeselShouldReturnFather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findBySexShouldReturnOneChild - 2018.06.29 at 10h 12m 48s.xml">
+      <configuration name="FamilyServiceTest.findBySexShouldReturnOneChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findBySexShouldReturnOneChild - 2018.06.29 at 10h 13m 19s.xml">
+      <configuration name="FamilyServiceTest.findBySexShouldReturnOneChild" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 09h 55m 03s.xml">
       <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 50m 58s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 51m 42s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 52m 37s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 55m 36s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 57m 47s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 08h 59m 24s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 09h 00m 38s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 09h 00m 56s.xml">
-      <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 09h 01m 11s.xml">
+    <history-entry file="FamilyServiceTest_findShouldReturnFamily - 2018.06.29 at 09h 55m 24s.xml">
       <configuration name="FamilyServiceTest.findShouldReturnFamily" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94530000" />
+    <option name="totallyTimeSpent" value="98829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +813,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="359" y="51" width="1708" height="1017" extended-state="0" />
+    <frame x="171" y="82" width="1708" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -778,7 +827,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344671" sideWeight="0.60376215" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49659863" sideWeight="0.60376215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -817,20 +866,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>childRepo.findAll(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>childRepo.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>childRepo.findAll(&quot;b&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>child.getFamily().getFather()</expression-string>
         <language-id>JAVA</language-id>
@@ -886,6 +942,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/family/dao/dto/FamilyDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1064,13 +1114,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
           <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/father/dao/FatherRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,6 +1122,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1162,7 @@
         <state relative-caret-position="170">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1153,18 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/child/service/ChildServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="46" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,14 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/father/dao/dto/FatherDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/family/rest/FamilyRest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1224,22 +1249,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1523002262328" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523002262328" expanded="false" signature="147:326" ph="..." />
+            <marker date="1523002262328" expanded="true" signature="476:685" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="716:727" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="746:752" ph=" }" />
+            <marker date="1523002262328" expanded="true" signature="852:1077" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="870:964" ph="runReflectiveCall() → {" />
+            <marker date="1523002262328" expanded="false" signature="1048:1063" ph="}" />
+            <marker date="1523002262328" expanded="false" signature="1106:1117" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="1146:1152" ph=" }" />
+            <marker date="1523002262328" expanded="true" signature="1236:1469" ph="{...}" />
+            <marker date="1523002262328" expanded="true" signature="1548:2081" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="2115:2126" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="2160:2166" ph=" }" />
+            <marker date="1523002262328" expanded="false" signature="2203:2214" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="2249:2255" ph=" }" />
+            <marker date="1523002262328" expanded="false" signature="2286:2297" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="2325:2331" ph=" }" />
+            <marker date="1523002262328" expanded="false" signature="2372:2383" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="2422:2428" ph=" }" />
+            <marker date="1523002262328" expanded="true" signature="2501:2586" ph="{...}" />
+            <marker date="1523002262328" expanded="true" signature="2643:3127" ph="{...}" />
+            <marker date="1523002262328" expanded="true" signature="3167:3289" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="3316:3327" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="3357:3363" ph=" }" />
+            <marker date="1523002262328" expanded="true" signature="3369:3387" ph="/**...*/" />
+            <marker date="1523002262328" expanded="true" signature="3447:3595" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="3639:3650" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="3689:3695" ph=" }" />
+            <marker date="1523002262328" expanded="false" signature="3737:3748" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="3784:3790" ph=" }" />
+            <marker date="1523002262328" expanded="true" signature="3867:3932" ph="{...}" />
+            <marker date="1523002262328" expanded="false" signature="3962:3973" ph=" { " />
+            <marker date="1523002262328" expanded="false" signature="4003:4009" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/father/dao/FatherRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/child/service/ChildServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/child/dao/ChildRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/father/dao/dto/FatherDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/family/service/FamilyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1382">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="105" column="56" lean-forward="true" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/family/service/FamilyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding />
         </state>
       </provider>
