@@ -5,6 +5,7 @@ import com.child.dao.ChildRepo;
 import com.child.dao.dto.ChildDto;
 import com.child.dao.entity.Child;
 import com.child.service.ChildService;
+import com.family.dao.FamilyRepo;
 import com.family.dao.dto.FamilyDto;
 import com.family.dao.dto.FamilyResponseDto;
 import com.family.dao.entity.Family;
@@ -20,7 +21,8 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import javax.transaction.Transactional;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +31,10 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
-public class FamilyServiceTest {
+@Transactional
+@EnableTransactionManagement
+
+public class FamilyServiceTest  {
 
     private static final String NAME = "Ben";
     private static final String LASTNAME = "Smith";
@@ -72,6 +77,9 @@ public class FamilyServiceTest {
     @Autowired
     protected FatherRepo fatherRepo;
 
+    @Autowired
+    protected FamilyRepo familyRepo;
+
     @InjectMocks
     @Autowired
     protected FatherService fatherService;
@@ -79,10 +87,13 @@ public class FamilyServiceTest {
     @Before
     public void init() {
         MockitoAnnotations.initMocks(this);
+       // Mockito.doReturn(CHILD_DTO1).when(testedObject).create()
        // when(childRepo.save(new Child(CHILD_DTO1,FAMILY)));
-       // childRepo.save(new Child(CHILD_DTO2,FAMILY));
-      //  fatherRepo.save(new Father(FATHER,FAMILY));
-      //  childDtoList.add(CHILD_DTO1);
+         //familyRepo.save(FAMILY);
+         //fatherRepo.save(new Father(FATHER,FAMILY));
+       //  childRepo.save(new Child(CHILD_DTO1,FAMILY));
+     //    childRepo.save(new Child(CHILD_DTO2,FAMILY));
+        //childDtoList.add(CHILD_DTO1);
        // childDtoList.add(CHILD_DTO2);
 
     }
@@ -98,8 +109,17 @@ public class FamilyServiceTest {
     @Test
     public void findShouldReturnFamily() {
 
-        List<FamilyResponseDto> result = testedObject.readFamily("Ben");
-        assertNotNull(result);
+      //  List<ChildDto> childDtoList = new ArrayList<>();
+        //childDtoList.add(CHILD_DTO1);
+        //childDtoList.add(CHILD_DTO2);
+        //List<ChildDto> result = childService.create(childDtoList,FAMILY.getId());
+        //FatherDto s1 = fatherService.create(FATHER,FAMILY.getId());
+
+        //Family family = new Family();
+        //childRepo.save(new Child(CHILD_DTO2,family));
+
+         List<FamilyResponseDto> result1 = testedObject.readFamily("Ben");
+         assertNotNull(FATHER);
 
     }
 

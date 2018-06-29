@@ -33,6 +33,7 @@ public class FamilyService {
     public FamilyDto create() {
         return new FamilyDto(familyRepo.save(new Family()));
     }
+
     public List<FamilyResponseDto> readFamily(String query) {
 
         Map<Father, List<Child>> map = new HashMap<>();
